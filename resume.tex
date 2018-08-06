@@ -1,0 +1,221 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper]{moderncv}			
+
+% moderncv themes
+\moderncvtheme[orange]{classic}                 
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 
+%'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                
+% idem
+
+\AtBeginDocument{\hypersetup{baseurl={}}}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   
+% replace by the encoding you are using
+%\usepackage{hyperref}
+%\hypersetup{
+%     colorlinks   = true,
+%     citecolor    = orange
+%}
+\usepackage{color}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						
+% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  
+% only for the classic theme, if you want to change the width of your name 
+%placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     
+% required when changes are made to page layout lengths
+
+% personal data
+\firstname{Nidhin}
+\familyname{{ }P P}
+\title{\footnotesize Punchaparambil House, Puthenchira P O, Thrissur, Kerala, India}               
+% optional, remove the line if not wanted
+    
+% optional, remove the line if not wanted
+\mobile{+965 98 933 409}                    
+% optional, remove the line if not wanted
+%% \phone{phone (optional)}                  
+% optional, remove the line if not wanted
+                      
+% optional, remove the line if not wanted
+\email{nidhinp.412@gmail.com}
+%\address{}{\httplink[Blog: nidhinp.wordpress.com]{nidhinp.wordpress.com}}
+
+%\fax{}{\httplink[Code repo: Github]{https://github.com/nidhinp}}
+%\extrainfo{%
+% optional, remove the line if not wanted
+% {\httplink{https://www.github.com/nidhinp}{GitHub}
+\homepage{github.com/nidhinp}
+% optional, remove the line if not wanted
+\extrainfo{{\httplink[Blog: nidhinp.wordpress.com]{nidhinp.wordpress.com}}} 
+%{{\httplink[Code repo: Github]{https://github.com/nidhinp}}}} 
+% optional, remove the line if not wanted
+%\photo[64pt]{photo.jpg}                         
+% '64pt' is the height the picture must be resized to and 'picture' is the name 
+%of the picture file; optional, remove the line if not wanted
+%% \quote{Improve users' lives}                 
+% optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make 
+%citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             
+% uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{SUMMARY}
+
+Experienced professional with 4 years of total software development experience in which almost three years in native iOS application development.
+
+My decision making skills and excellent communication skills allowed me to communicate with my clients directly right from the beginning of my career. Know for optimism, high energy and detail oriented approach, allow me to meet project deadlines and ensure great customer satisfaction.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{WORK HISTORY}
+\subsection{Q8Coders, Kuwait City, Kuwait}
+\cvline{Job Title}{Senior Software Engineer}
+\cvline{Duration}{March 2015 - Present}
+\cvline{Description}{Working as a backend and native iOS application  developer full time}
+
+\subsection{Rawdata Technologies, Cochin, India}
+\cvline{Job Title}{Junior Software Engineer}
+\cvline{Duration}{December 2014 - March 2015}
+\cvline{Description}{Worked as a web application developer full time}
+
+\subsection{PRTouch, Mumbai, India}
+\cvline{Job Title}{Junior Software Engineer}
+\cvline{Duration}{June 2014 - October 2014}
+\cvline{Description}{Worked as a web application  developer full time}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{TECHNICAL SKILLS}
+\cvline{Key Skills}{Swift, Objective C, Python, JavaScript, Java}
+\cvcomputer{Databases}{PostgreSQL, Firebase Realtime DB}{}{}
+\cvcomputer{Version Control}{Git}{}{}
+\cvcomputer{Mobile Technologies}{iOS, React Native, Java}{}{}
+\cvcomputer{Web Technologies}{Django, Django Rest Framework, HTML, CSS, AWS, Heroku}{}{}
+\cvcomputer{Platforms}{Mac, Linux, Windows}{}{}
+\cvcomputer{Tools}{Xcode, Vim, Visual Studio Code}{}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECTS}
+\subsection{Food ordering app}
+\cvline{Description}{User can order food from his favorite restaurant. Key features are food ordering and live tracking of the order. Two mobile application has been developed one for customers and one for drivers. Deployed in AWS cloud.}
+\cvline{Languages}{Python, Swift}
+\cvline{Database}{PostgreSQL, Firebase Real Time DB}
+\cvline{Framework}{Django, Django Rest Framework}
+
+\subsection{Ghethra - Online store for clothes}
+\cvline{Description}{App displaying clothes under different categories. User can buy clothes online. Key features are cloth purchasing, online payment. Deployed in AWS cloud.}
+\cvline{Languages}{Python, Swift}
+\cvline{Database}{PostgreSQL}
+\cvline{Framework}{Django, Django Rest Framework}
+
+\subsection{U Whistle}
+\cvline{Description}{An app in which user can request the service he want on the desired time, the registered service providers will completed the request.
+Key features include online payment}
+\cvline{Languages}{Python, Objective C}
+\cvline{Database}{PostgreSQL, Realm Mobile DB}
+\cvline{Framework}{Django, Django Rest Framework}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{EDUCATION}
+\cventry{B.Tech}{Govt. Engineering College, Thrissur}{University of Calicut, 2012}{}{}{Computer Science and Engineering}{}{}
+\cventry{HSE}{St. Antony's Higher Secondary School, Mala}{}{}{}{Computer Science}
+\cventry{SSLC}{THS Puthenchira, Velloor}{}{}{}{School Education}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{ONLINE COURSES}
+\begin{itemize}
+\item{\textbf{Introduction to Computer Science and Programming} at edx.org from \textbf{MIT}}
+    
+
+Being able to understand the relevant subtleties of the Python language, critically think about approaches to solve the 
+problem
+
+\textcolor{gray}{\httplink{www.edx.org/course/mitx/mitx-6-00x-introduction-computer-science-586}}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PERSONAL INFORMATION}
+\cvline{Age}{28}
+\cvline{Date of Birth}{4 December 1989}
+\cvline{Sex}{Male}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Activities}
+	\begin{itemize}
+		\item{ Blogging: \textcolor{gray}{\httplink{nidhinp.wordpress.com}}}
+		\item{ Coding: \textcolor{gray}{\httplink{github.com/nidhinp}}}
+	\end{itemize}
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Personal Skills}
+	\begin{itemize}
+		\item{ Comprehensive problem solving abilities.}
+		\item{ Excellent verbal and written communication skills.}
+		\item{ Positive attitude.}
+		\item{ Hard worker and a team player.}
+	\end{itemize}
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Hobbies and Interests}
+	\begin{itemize}
+		\item{ Watching movies and blogging.}
+		\item{ Playing football, chess.}
+	\end{itemize}
+			
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\section{Declaration}
+
+I hereby declare that the above given entries are true to the extent of my knowledge and belief. 
+\begin{verbatim}
+
+
+Place :Kuwait City                                                (Nidhin P P)
+Date  :29-04-2018
+\end{verbatim}
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
